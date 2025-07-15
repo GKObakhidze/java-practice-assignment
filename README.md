@@ -35,40 +35,40 @@ Implement the following static methods in a class named `AlgorithmUtils`:
 
 1. **Reverse an Array**
 
-   * Method signature: `public static void reverse(int[] arr)`
+    * Method signature: `public static void reverse(int[] arr)`
 
 2. **Find Duplicate in Array (Nested Loop)**
 
-   * `public static List<Integer> findDuplicatesNaive(int[] arr)`
+    * `public static List<Integer> findDuplicatesNaive(int[] arr)`
 
 3. **Check Palindrome (String)**
 
-   * `public static boolean isPalindrome(String s)`
+    * `public static boolean isPalindrome(String s)`
 
 4. **Count Characters in a String**
 
-   * `public static Map<Character, Integer> countCharacters(String s)`
+    * `public static Map<Character, Integer> countCharacters(String s)`
 
 5. **Find Max and Min in Array**
 
-   * `public static int getMax(int[] arr)`
-   * `public static int getMin(int[] arr)`
+    * `public static int getMax(int[] arr)`
+    * `public static int getMin(int[] arr)`
 
 6. **Fibonacci Series**
 
-   * `public static List<Integer> fibonacci(int n)`
+    * `public static List<Integer> fibonacci(int n)`
 
 7. **Sum of All Elements in Array**
 
-   * `public static int sumArray(int[] arr)`
+    * `public static int sumArray(int[] arr)`
 
 8. **Linear Search**
 
-   * `public static int linearSearch(int[] arr, int key)`
+    * `public static int linearSearch(int[] arr, int key)`
 
 9. **Remove Duplicates from Array (with Set)**
 
-   * `public static int[] removeDuplicates(int[] arr)`
+    * `public static int[] removeDuplicates(int[] arr)`
 
 10. **Sort an Array (Bubble Sort)**
 
@@ -94,7 +94,7 @@ Include **unit tests** for each method in `AlgorithmUtilsTest`.
       List<User> filterAndSort(List<User> users)
       ```
 
-      * Filter for `active` users older than 30 and return them sorted by `lastName`.
+        * Filter for `active` users older than 30 and return them sorted by `lastName`.
 
 13. **REST-Assured API Test**
 
@@ -120,8 +120,14 @@ Include **unit tests** for each method in `AlgorithmUtilsTest`.
 
 ## Submission
 
-* Ensure all code compiles and tests pass (`mvn test` or `gradle test`).
+* Ensure all code compiles and tests pass (`mvn test`).
 * Include any assumptions or design decisions in **README.md**.
-* Push your branch and open a Pull Request.
+
+Note: Create the directories and package structure exactly as shown so your IDE and build tool can find everything.
+
+🎯 Candidate Guidelines
+Allowed resources: Candidates may use public search engines (e.g., Google) for research—but must not use any form of artificial intelligence (AI) assistance.
+
+Time allotted: 30 minutes.
 
 Good luck, and thank you for your time!
