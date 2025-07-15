@@ -7,7 +7,7 @@ Welcome to your Java Practice Interview Assignment! To fit a 30‑minute timebox
 ## 🛠 Prerequisites
 
 - **Java JDK:** version 11 or later
-- **Build tool:** Maven or Gradle
+- **Build tool:** Maven
 - **IDE:** IntelliJ IDEA, Eclipse, VS Code, or similar
 
 ---
@@ -17,7 +17,7 @@ Welcome to your Java Practice Interview Assignment! To fit a 30‑minute timebox
 ```
 java-practice-assignment/
 ├── README.md                   # This instructions file
-├── pom.xml                     # or build.gradle
+├── pom.xml                   
 └── src/
     ├── main/
     │   └── java/
@@ -85,7 +85,7 @@ Implement at least **five** of these static methods in `AlgorithmUtils.java`:
 
 - **Run all tests:**  
   ```bash
-  mvn test    # or gradle test
+  mvn test
   ```
 - Ensure code compiles and tests pass.  
 - Document any assumptions in **README.md**.  
